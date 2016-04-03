@@ -1,8 +1,55 @@
 .main-text{
     margin: auto;
     max-width: 800px;
+    background-color: whitesmoke;
+    padding: 0px;
+    border: 0px;
 }
-h1, h2 {
+
+.intro{
+    margin: auto;
+    max-width: inherit;
+    background-color: lightcyan;
+    padding: 20px;
+}
+body{
+    background-color: firebrick;
+}
+h1, h2, h3, h4, h5 {
     font-family:  'Roboto', sans-serif;
     text-align: center;
+}
+
+.quote{
+    font-style: italic;
+    color: darkgray;
+    font-size: 1.4em;
+}
+.overview{
+    margin: auto;
+    max-width: inherit;
+    background-color: blue;
+
+}
+.core{
+    margin: auto;
+    max-width: inherit;
+    background-color: red;
+
+}
+.conclusion{
+    margin: auto;
+    max-width: inherit;
+    background-color: lawngreen;
+
+}
+.vocab{
+    margin: auto;
+    max-width: inherit;
+    background-color: lightsalmon;
+
+}
+p{
+    padding-left: 20px;
+    padding-right: 20px;
 }
