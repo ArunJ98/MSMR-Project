@@ -1,23 +1,19 @@
+body{
+    font-family:  'Roboto', sans-serif;
+    background-color: #eeeded;
+    margin: 0px;
+    padding: 0px;
+}
 .main-text{
     margin: auto;
     max-width: 800px;
-    background-color: whitesmoke;
-    padding: 0px;
-    border: 0px;
-    font-family:  'Roboto', sans-serif;
-    border-radius: 20px;
-
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .intro{
-    margin: auto;
-    max-width: inherit;
     background-color: lightcyan;
     padding: 20px;
-    border-radius: 20px;
-}
-body{
-    background-color: gainsboro;
 }
 h1, h2, h3, h5{
     text-align: center;
@@ -30,30 +26,17 @@ h1, h2, h3, h5{
     text-align: center;
 }
 .overview{
-    margin: auto;
-    max-width: inherit;
-    background-color: whitesmoke;
 
 }
 .core{
-    margin: auto;
-    max-width: inherit;
-    background-color: whitesmoke;
 
 }
 .conclusion{
-    margin: auto;
-    max-width: inherit;
-    background-color: whitesmoke;
 
 }
 .vocab{
-    margin: auto;
-    max-width: inherit;
-    background-color: whitesmoke;
     padding-bottom: 20px;
-    border-radius: 20px;
-
+    border-radius: 4px;
 }
 p{
     padding-left: 20px;
