@@ -5,6 +5,8 @@
     padding: 0px;
     border: 0px;
     font-family:  'Roboto', sans-serif;
+    border-radius: 20px;
+
 }
 
 .intro{
@@ -12,11 +14,12 @@
     max-width: inherit;
     background-color: lightcyan;
     padding: 20px;
+    border-radius: 20px;
 }
 body{
-    background-color: firebrick;
+    background-color: gainsboro;
 }
-h1, h2, h3{
+h1, h2, h3, h5{
     text-align: center;
 }
 
@@ -24,29 +27,32 @@ h1, h2, h3{
     font-style: italic;
     color: darkgray;
     font-size: 1.4em;
+    text-align: center;
 }
 .overview{
     margin: auto;
     max-width: inherit;
-    background-color: blue;
+    background-color: whitesmoke;
 
 }
 .core{
     margin: auto;
     max-width: inherit;
-    background-color: red;
+    background-color: whitesmoke;
 
 }
 .conclusion{
     margin: auto;
     max-width: inherit;
-    background-color: lawngreen;
+    background-color: whitesmoke;
 
 }
 .vocab{
     margin: auto;
     max-width: inherit;
-    background-color: lightsalmon;
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+    border-radius: 20px;
 
 }
 p{
